@@ -1,2 +1,0 @@
-# titan-guard
-Security Global
