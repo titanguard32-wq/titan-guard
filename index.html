@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="TITAN GUARD Global Security Group — professional security services and careers.">
+  <title>TITAN GUARD | Global Security Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="TITAN GUARD home">
+    <span class="brand-mark">TG</span>
+    <span><strong>TITAN GUARD</strong><small>GLOBAL SECURITY GROUP</small></span>
+  </a>
+  <nav id="mainNav">
+    <a href="#about" data-i18n="navAbout">Tentang</a>
+    <a href="#services" data-i18n="navServices">Layanan</a>
+    <a href="#careers" data-i18n="navCareers">Karier</a>
+    <a href="#news" data-i18n="navNews">Berita</a>
+    <a href="#contact" data-i18n="navContact">Kontak</a>
+  </nav>
+  <div class="top-actions">
+    <button id="langToggle" class="lang-btn" type="button">EN</button>
+    <a class="btn btn-gold btn-small" href="#apply" data-i18n="applyNow">Lamar Sekarang</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow" data-i18n="heroEyebrow">GLOBAL SECURITY • PROFESSIONAL STANDARDS</p>
+    <h1 data-i18n="heroTitle">KEAMANAN ADALAH<br><em>KOMITMEN KAMI.</em></h1>
+    <p class="hero-copy" data-i18n="heroCopy">Membangun kepercayaan melalui integritas, kesiapsiagaan, dan layanan keamanan profesional yang bertanggung jawab.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#about" data-i18n="discover">Kenali Perusahaan</a>
+      <a class="btn btn-outline" href="#careers" data-i18n="join">Bergabung Bersama Kami</a>
+    </div>
+    <div class="hero-meta"><span class="gold-line"></span><span data-i18n="heroMeta">PROFESSIONALISM · INTEGRITY · TRUST</span></div>
+  </div>
+  <div class="hero-seal" aria-hidden="true"><div class="seal-inner"><b>TG</b><span>EST. 2026</span></div></div>
+</section>
+
+<section class="ticker"><span>✦ TITAN GUARD</span><span>STRENGTH</span><span>INTEGRITY</span><span>PROTECTION</span><span>✦ TITAN GUARD</span></section>
+
+<section class="section section-dark" id="about">
+  <div class="section-heading">
+    <p class="eyebrow">01 / ABOUT US</p>
+    <h2 data-i18n="aboutTitle">Dibangun di atas <em>integritas.</em></h2>
+    <p data-i18n="aboutIntro">TITAN GUARD adalah konsep perusahaan keamanan profesional yang mengutamakan perlindungan manusia, aset, dan lingkungan kerja melalui tata kelola yang bertanggung jawab.</p>
+  </div>
+  <div class="about-grid">
+    <article class="feature-card"><span class="feature-number">01</span><h3 data-i18n="vision">Visi</h3><p data-i18n="visionText">Menjadi penyedia layanan keamanan profesional yang dipercaya melalui standar layanan, etika, dan akuntabilitas.</p></article>
+    <article class="feature-card"><span class="feature-number">02</span><h3 data-i18n="mission">Misi</h3><p data-i18n="missionText">Mengembangkan personel kompeten, proses yang terukur, dan kemitraan yang menghormati hukum serta hak asasi manusia.</p></article>
+    <article class="feature-card"><span class="feature-number">03</span><h3 data-i18n="values">Nilai Kami</h3><p data-i18n="valuesText">Integritas, disiplin, profesionalisme, rasa hormat, transparansi, dan keselamatan.</p></article>
+  </div>
+  <p class="disclaimer" data-i18n="companyNote">Catatan: profil ini merupakan rancangan identitas perusahaan. Klaim tentang kantor, lisensi, klien, pengalaman, dan operasi hanya boleh dipublikasikan setelah benar-benar diverifikasi.</p>
+</section>
+
+<section class="section section-black" id="services">
+  <div class="section-heading">
+    <p class="eyebrow">02 / OUR SERVICES</p>
+    <h2 data-i18n="servicesTitle">Layanan keamanan <em>profesional.</em></h2>
+    <p data-i18n="servicesIntro">Layanan dirancang berdasarkan penilaian risiko, kepatuhan hukum, dan kebutuhan klien.</p>
+  </div>
+  <div class="service-grid">
+    <article class="service-card"><div class="service-icon">◆</div><h3 data-i18n="service1">Keamanan fasilitas</h3><p data-i18n="service1Text">Pengamanan akses dan lingkungan fasilitas sesuai prosedur yang disetujui.</p></article>
+    <article class="service-card"><div class="service-icon">◇</div><h3 data-i18n="service2">Perlindungan aset</h3><p data-i18n="service2Text">Dukungan perlindungan aset, pemeriksaan risiko, dan pelaporan insiden.</p></article>
+    <article class="service-card"><div class="service-icon">◈</div><h3 data-i18n="service3">Keamanan acara</h3><p data-i18n="service3Text">Perencanaan keselamatan pengunjung, koordinasi, dan pengelolaan akses acara.</p></article>
+    <article class="service-card"><div class="service-icon">◎</div><h3 data-i18n="service4">Konsultasi risiko</h3><p data-i18n="service4Text">Penilaian risiko dan rekomendasi perbaikan keamanan yang proporsional.</p></article>
+  </div>
+</section>
+
+<section class="section recruitment-band" id="careers">
+  <div><p class="eyebrow">03 / CAREERS</p><h2 data-i18n="careerTitle">Karier dengan <em>tujuan.</em></h2><p data-i18n="careerCopy">Kami mencari individu yang menjunjung integritas, pelayanan, keselamatan, dan profesionalisme.</p></div>
+  <a class="btn btn-gold" href="#apply" data-i18n="viewJobs">Lihat Lowongan & Lamar</a>
+</section>
+
+<section class="section section-dark" id="jobs">
+  <div class="section-heading row-heading"><div><p class="eyebrow">04 / OPEN POSITIONS</p><h2 data-i18n="jobsTitle">Lowongan <em>tersedia.</em></h2></div><span class="small-note" data-i18n="jobsNote">Daftar posisi akan dimuat dari database.</span></div>
+  <div id="jobsList" class="jobs-grid"><div class="empty-state">Memuat lowongan… / Loading vacancies…</div></div>
+</section>
+
+<section class="section section-black" id="apply">
+  <div class="section-heading"><p class="eyebrow">05 / APPLICATION</p><h2 data-i18n="applyTitle">Mulai perjalanan <em>Anda.</em></h2><p data-i18n="applyIntro">Buat akun kandidat, lalu lengkapi lamaran. Dokumen hanya dapat diakses oleh kandidat dan petugas HRD berwenang.</p></div>
+  <div class="application-layout">
+    <form id="applicationForm" class="panel form-grid">
+      <h3 data-i18n="applicationForm">Formulir Lamaran</h3>
+      <label><span data-i18n="fullName">Nama lengkap</span><input name="full_name" required maxlength="120" autocomplete="name"></label>
+      <label><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+      <label><span data-i18n="phone">Nomor telepon</span><input name="phone" type="tel" maxlength="30" required></label>
+      <label><span data-i18n="country">Negara domisili</span><input name="country" required maxlength="80"></label>
+      <label><span data-i18n="position">Posisi yang dilamar</span><select name="job_id" id="jobSelect" required><option value="">Pilih posisi / Select position</option></select></label>
+      <label><span data-i18n="experience">Pengalaman kerja (ringkas)</span><textarea name="experience" rows="3" maxlength="1500"></textarea></label>
+      <label class="full"><span data-i18n="resume">CV / Resume (PDF, maks. 5 MB)</span><input id="resumeFile" type="file" accept=".pdf,application/pdf"></label>
+      <label class="full check-label"><input type="checkbox" id="consent" required><span data-i18n="consent">Saya menyetujui pemrosesan data untuk tujuan rekrutmen dan telah membaca kebijakan privasi.</span></label>
+      <button class="btn btn-gold full" type="submit" data-i18n="submitApplication">Kirim Lamaran</button>
+      <p id="applicationMessage" class="form-message full" role="status"></p>
+      <p class="microcopy full" data-i18n="accountNote">Anda harus login terlebih dahulu. Gunakan bagian Portal Kandidat di bawah.</p>
+    </form>
+    <aside class="panel side-panel"><div class="side-emblem">TG</div><h3 data-i18n="candidatePortal">Portal Kandidat</h3><p data-i18n="portalText">Masuk atau buat akun untuk mengirim lamaran dan memantau proses seleksi.</p>
+      <form id="authForm" class="stack">
+        <label><span>Email</span><input id="authEmail" type="email" required autocomplete="email"></label>
+        <label><span data-i18n="password">Kata sandi</span><input id="authPassword" type="password" required minlength="8" autocomplete="current-password"></label>
+        <div class="button-stack"><button class="btn btn-gold" id="loginBtn" type="button" data-i18n="login">Masuk</button><button class="btn btn-outline" id="signupBtn" type="button" data-i18n="createAccount">Buat Akun</button></div>
+      </form>
+      <button id="logoutBtn" class="text-btn hidden" type="button" data-i18n="logout">Keluar</button>
+      <p id="authMessage" class="form-message" role="status"></p>
+      <div id="candidateStatus" class="status-box hidden"></div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section-dark" id="news">
+  <div class="section-heading row-heading"><div><p class="eyebrow">06 / NEWSROOM</p><h2 data-i18n="newsTitle">Berita & <em>pengumuman.</em></h2></div></div>
+  <div id="newsList" class="news-grid"><div class="empty-state">Memuat berita… / Loading news…</div></div>
+</section>
+
+<section class="section section-black" id="admin">
+  <div class="section-heading"><p class="eyebrow">07 / RESTRICTED ACCESS</p><h2 data-i18n="adminTitle">Portal <em>HRD.</em></h2><p data-i18n="adminIntro">Area ini hanya dapat digunakan akun yang telah diberi peran administrator oleh pengelola sistem.</p></div>
+  <div class="panel admin-panel">
+    <div class="admin-top"><h3>Recruitment Management</h3><button id="refreshAdmin" class="btn btn-outline btn-small" type="button">Refresh</button></div>
+    <p id="adminMessage" class="form-message">Login menggunakan akun HRD untuk melihat lamaran.</p>
+    <div id="adminApplications" class="table-wrap"><p class="microcopy">Dashboard akan menampilkan lamaran setelah akun HRD terverifikasi.</p></div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div><p class="eyebrow">08 / CONTACT</p><h2 data-i18n="contactTitle">Mari membangun <em>kepercayaan.</em></h2><p data-i18n="contactCopy">Hubungi tim TITAN GUARD untuk pertanyaan layanan dan rekrutmen.</p></div>
+  <div class="contact-details"><div><small>GENERAL ENQUIRIES</small><strong>contact@titanguard.example</strong></div><div><small>CAREERS</small><strong>careers@titanguard.example</strong></div><p class="microcopy" data-i18n="contactNote">Alamat dan kontak di atas adalah placeholder. Ganti dengan informasi perusahaan yang sah sebelum publikasi.</p></div>
+</section>
+</main>
+
+<footer><a class="brand" href="#home"><span class="brand-mark">TG</span><span><strong>TITAN GUARD</strong><small>GLOBAL SECURITY GROUP</small></span></a><p>© <span id="year"></span> TITAN GUARD. <span data-i18n="rights">Hak cipta dilindungi.</span></p><a href="#home" class="back-top">↑ TOP</a></footer>
+<div id="toast" class="toast" role="status"></div>
+</body>
+</html>
